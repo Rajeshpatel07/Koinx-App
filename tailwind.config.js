@@ -17,6 +17,16 @@ module.exports = {
       },
     },
     extend: {
+      width: {
+        "41": "41rem",
+        "66": "72rem",
+        "028": "28rem",
+        "032": "32rem"
+      },
+      height: {
+        "41": "41rem",
+        "30": "30rem"
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -73,5 +83,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("daisyui")],
 }
