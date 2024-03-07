@@ -4,7 +4,7 @@ import Tabs from "./Tabs"
 export default function Data() {
   return (
     <div className=" w-full  mt-6 bg-white border my-2 rounded-xl xl:w-66">
-      <Tabs/>
+      <Tabs />
       <div className='h-6/12 w-full  flex flex-col gap-5 p-6'>
         <h1 className='text-4xl'>Performance</h1>
         <div className='flex items-center justify-evenly gap-5'>
@@ -35,8 +35,8 @@ export default function Data() {
       <div className='h-6/12 w-full p-6'>
         <h1 className='text-4xl'>Fundamentals</h1>
 
-        {/* <Table/> */}
-        </div>
+        <Table />
       </div>
+    </div>
   )
 }
