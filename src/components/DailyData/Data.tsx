@@ -1,3 +1,5 @@
+import Table1 from "./Table1"
+import Table2 from "./Table2"
 import Tabs from "./Tabs"
 
 export default function Data() {
@@ -34,58 +36,9 @@ export default function Data() {
       <div className='h-6/12 w-full p-6'>
         <h1 className='text-4xl'>Fundamentals</h1>
 
-        <div className='flex justify-evenly flex-wrap'>
-          <div className="overflow-x-auto">
-            <table className="table ">
-              {/* head */}
-
-              <tbody>
-                {/* row 1 */}
-                <tr className='border-b-2 border-gray-200'>
-                  <td>Cy Ganderton</td>
-                  <td>Blue</td>
-                </tr>
-                {/* row 2 */}
-                <tr className='border-b-2 border-gray-200' >
-                  <td>Hart Hagerty</td>
-                  <td>Purple</td>
-                </tr>
-                {/* row 3 */}
-                <tr className='border-b-2 border-gray-200' >
-                  <td>Brice Swyre</td>
-                  <td>Red</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-
-          <div className="overflow-x-auto">
-            <table className="table ">
-              {/* head */}
-
-              <tbody>
-                {/* row 1 */}
-                <tr className='border-b-2 border-gray-200'>
-                  <td>Cy Ganderton</td>
-                  <td>Blue</td>
-                </tr>
-                {/* row 2 */}
-                <tr className='border-b-2 border-gray-200' >
-                  <td>Hart Hagerty</td>
-                  <td>Purple</td>
-                </tr>
-                {/* row 3 */}
-                <tr className='border-b-2 border-gray-200'>
-                  <td>Brice Swyre</td>
-                  <td>Red</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
+        <Table1/>
+        <Table2/> 
         </div>
       </div>
-    </div>
   )
 }
