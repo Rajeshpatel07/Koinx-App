@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       width: {
         "41": "41rem",
-        "66": "72rem",
+        "66": "71.3rem",
         "028": "28rem",
         "032": "32rem"
       },
@@ -28,6 +28,7 @@ module.exports = {
         "30": "30rem"
       },
       colors: {
+        lightdark:"#f2f2f2",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

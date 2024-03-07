@@ -1,8 +1,14 @@
 import {
-  Header, BreadCrumb, RightBar, Tabs,
+  Header, BreadCrumb, 
+  MainGraph,
   Data,
   Sentiment,
-  Widget
+
+  About,
+  Tokenomics,
+  Team,
+  Footer
+
 
 } from './components/index.ts'
 
@@ -11,13 +17,16 @@ function App() {
   return (
     <>
       <Header />
-      <div className='px-3 md:px-5'>
+      <div className='px-3 md:pl-10 mb-5 bg-lightdark'>
         <BreadCrumb />
-        <Widget />
-        <Tabs />
+        <MainGraph/>
         <Data />
         <Sentiment />
+        <About/>
+        <Tokenomics/>
+        <Team/>
       </div>
+      <Footer/>
     </>
   )
 }
