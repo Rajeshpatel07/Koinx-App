@@ -9,7 +9,7 @@ export default function Table() {
   const [error, seterror] = useState(false)
 
   useEffect(() => {
-    ; (async () => {
+    (async () => {
       try {
         seterror(false)
         const response = await axios(`${BaseUrl}/coins/bitcoin`);
