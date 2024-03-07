@@ -1,5 +1,4 @@
-import Table1 from "./Table1"
-import Table2 from "./Table2"
+import Table from "./Table"
 import Tabs from "./Tabs"
 
 export default function Data() {
@@ -36,8 +35,7 @@ export default function Data() {
       <div className='h-6/12 w-full p-6'>
         <h1 className='text-4xl'>Fundamentals</h1>
 
-        <Table1/>
-        <Table2/> 
+        {/* <Table/> */}
         </div>
       </div>
   )

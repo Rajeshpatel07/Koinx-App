@@ -26,7 +26,6 @@ export default function MainGraph(){
         )()
     },[])
 
-    // console.log(currency)
 
 
     return(

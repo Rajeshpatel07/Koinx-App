@@ -11,7 +11,7 @@ export default function About(){
 
             <div className="p-3 " >
                 <h2 className="font-medium text-3xl">What is Bitcoin?</h2>
-                <section className="my-3 border-b-2">
+                <section className="my-3 border-b-2 pb-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis quaerat velit ullam, quasi eligendi recusandae 
                     officiis facilis fugiat ducimus? Ad eum impedit reprehenderit quae voluptatem dolorum nam quidem nihil.imei fjieme ofme
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, beatae aut exercitationem itaque eum non? Odio 
