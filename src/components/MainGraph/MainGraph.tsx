@@ -2,6 +2,7 @@ import RightBar from "./RightBar";
 import Widget from "./Widget";
 import { useState, useEffect } from "react";
 import axios from 'axios'
+import Coins from "@/hooks/Coins";
 
 const BaseUrl = `https://api.coingecko.com/api/v3/`
 
@@ -9,6 +10,9 @@ const BaseUrl = `https://api.coingecko.com/api/v3/`
 export default function MainGraph() {
 
   const [currency, setcurrency] = useState({})
+
+  const TopCoins:object=Coins()
+  
 
   useEffect(() => {
     (async () => {
@@ -46,7 +50,7 @@ export default function MainGraph() {
         </div>
       </div>
 
-      <RightBar />
+      <RightBar TCoin={TopCoins} />
     </div>
   )
 }
